@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.overall{
+    min-height: 100vh;
+    background-color:whitesmoke;
+
+}
+.overall h1{
+    text-align: center;
+    padding: 10px 0;
+}
+.form{
+    padding: 10px;
+    width: 300px;
+    /* border: 1px solid black; */
+    background-color: beige;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.form input,.form textarea{
+    margin: 10px 0;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border-radius: 6px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.form textarea{
+    height: 50px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid  black; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    border-collapse: collapse;
+}
+th{
+    background-color:azure ;
+    height: 50px;
+    font-size: 1.4rem;
+}
+tr,td{
+    height: 70px;
+    font-size: 1.1rem;
+    /* border: 1px solid  black; */
+    background-color:whitesmoke;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+.btn-success{
+    padding: 9px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+.btn-danger{
+    padding: 9px;
+    background-color: red;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+}
